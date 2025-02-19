@@ -58,11 +58,14 @@ define({
 
         if (responseData.records && responseData.records.length > 0) {
           var data = responseData.records[0];
+<<<<<<< HEAD
 //           self.view.SegmentBmi.widgetDataMap = {
 //             lblHeight: responseData.records[0]["height"],
 //             lblWeight: responseData.records[0]["weight"],
 //             lblBmi: responseData.records[0]["bmi_result"]
 //         };
+=======
+>>>>>>> 6bcd227 (Deleted commented value)
           
           self.view.seg.setData(abdiapp_BMIData["records"]);
                 
@@ -103,6 +106,7 @@ define({
     kony.print("Integration Service Failure:" + JSON.stringify(error));
 }, options);
     
+<<<<<<< HEAD
 //     var integrationObj = KNYMobileFabric.getIntegrationService(serviceName);
     
 //     integrationObj.invokeOperation(operationName,d {}, headers, function(response) {
@@ -112,6 +116,8 @@ define({
 //     }, function(error) {
 //         alert("Error fetching data: " + JSON.stringify(error));
 //     };
+=======
+>>>>>>> 6bcd227 (Deleted commented value)
 },
   Logout: function(){
     kony.store.clear();
