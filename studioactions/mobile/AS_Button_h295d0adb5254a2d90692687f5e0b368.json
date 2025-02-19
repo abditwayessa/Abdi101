@@ -1,0 +1,28 @@
+{
+    "AS_Button_h295d0adb5254a2d90692687f5e0b368": {
+        "id": "AS_Button_h295d0adb5254a2d90692687f5e0b368",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Ideal",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dc8faa1a9e2d483d8bc36df2b6535ab1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__adde936b60d342dfaf80c59ebd8c1bc3",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "NavigateToIdeal",
+            "display": "NavigateToIdeal",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

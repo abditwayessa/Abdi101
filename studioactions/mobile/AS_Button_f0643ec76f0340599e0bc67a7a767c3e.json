@@ -1,0 +1,28 @@
+{
+    "AS_Button_f0643ec76f0340599e0bc67a7a767c3e": {
+        "id": "AS_Button_f0643ec76f0340599e0bc67a7a767c3e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Ideal",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dc8faa1a9e2d483d8bc36df2b6535ab1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__hbdffd706961461099df0a6b3ed561e0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "OnCalculate",
+            "display": "OnCalculate",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

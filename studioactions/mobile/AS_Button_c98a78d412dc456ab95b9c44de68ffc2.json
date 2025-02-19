@@ -1,0 +1,21 @@
+{
+    "AS_Button_c98a78d412dc456ab95b9c44de68ffc2": {
+        "id": "AS_Button_c98a78d412dc456ab95b9c44de68ffc2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_g4d61d083d5d4adb9aa851af5bf122a5",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "Logout",
+            "display": "Logout",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

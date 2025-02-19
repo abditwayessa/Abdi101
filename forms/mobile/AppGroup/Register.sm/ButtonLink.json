@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "19dp"
+    },
+    "_skin_": "sc7eea0625e9481bad4dca139a0ff295",
+    "_text_": "Login",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sd6e6ec740ae438b8d14c058a56d427d",
+    "id": "ButtonLink",
+    "ide_onClick": "AS_Button_d72c3aa86b0242fd9c4bddd3cb3dd45d",
+    "info": null,
+    "isvisible": true,
+    "kuid": "a1d57040ce4245b9a300fe5a4f87aaf0",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "parent": "HyperLinkButton",
+    "pf": "Register",
+    "wType": "Button",
+    "zindex": 1
+}

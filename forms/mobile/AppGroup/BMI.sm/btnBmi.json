@@ -1,0 +1,48 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0.50%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0ec06cd622a4b319594eb8c0ae0c01f",
+    "_text_": "BMI",
+    "_width_": {
+        "type": "string",
+        "value": "33%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "se22fdb83e2e4a72acede6bbab863ff2",
+    "id": "btnBmi",
+    "ide_onClick": "AS_Button_cb5dedcc097e469a957e5b7f5f3ad805",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f00485675d884172a2f986a8fc383611",
+    "name": "kony.ui.Button",
+    "parent": "FlexContainer0c6cd4b671aa940",
+    "pf": "BMI",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

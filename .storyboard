@@ -1,0 +1,119 @@
+{
+    "models": {
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [
+                {
+                    "actionId": "NAVIGATE_TO_FORM__f7c60f4e59c84967a346a0f02121349f",
+                    "actionSequenceId": "AS_Button_idb5ac0b69f04d2fa3e30171fba8c7a9",
+                    "beautifiedPath": "RegsitrationSuccess > ButtonRound > onClick",
+                    "evt": "ide_onClick",
+                    "from": "b0ee3a9b7f8145e297966eba6c1cda23",
+                    "isPSP": false,
+                    "points": [
+                        -53.02584721832159,
+                        632.7325556792773,
+                        -63.02584721832159,
+                        632.7325556792773,
+                        -208.3127138878345,
+                        632.7325556792773,
+                        -208.3127138878345,
+                        479.1946040050733,
+                        -208.3127138878345,
+                        325.6566523308693,
+                        -208.3127138878345,
+                        315.6566523308693
+                    ],
+                    "to": "ec30c0428a4c4d949d7367ad0afce934",
+                    "widgetKUID": "be857b3834264a9babb996123c12c3fb"
+                },
+                {
+                    "actionId": "NAVIGATE_TO_FORM__ide_onClick_h07453a739304d2a8bb1458c955c2e75",
+                    "actionSequenceId": "AS_Button_j464d700d4b940dc9ec48461559716a2",
+                    "beautifiedPath": "Signin > ButtonLink > onClick",
+                    "evt": "ide_onClick",
+                    "from": "ec30c0428a4c4d949d7367ad0afce934",
+                    "isPSP": false,
+                    "points": [
+                        -288.31271388783443,
+                        213.52331899753597,
+                        -298.31271388783443,
+                        213.52331899753597,
+                        -300,
+                        213.52331899753597,
+                        -300,
+                        213.52331899753597,
+                        -308,
+                        213.52331899753597,
+                        -308,
+                        672.1773026190835,
+                        -663.0953725307821,
+                        672.1773026190835,
+                        -673.0953725307821,
+                        672.1773026190835
+                    ],
+                    "to": "bdcb7a99872f420fbaa49a7cd4fbed98",
+                    "widgetKUID": "bda8c779e44f42c3a4c791eb6ed913a8"
+                }
+            ],
+            "nodeDataArray": [
+                {
+                    "formKUID": "d82411e98de64ea2b655a607e709c915",
+                    "formName": "BMI",
+                    "isStartupForm": false,
+                    "key": "d82411e98de64ea2b655a607e709c915",
+                    "loc": "164.1203206537 36.16982069941227",
+                    "thumbnailURL": "/assets/Abdi101/forms/mobile/AppGroup/BMI.sm/.thumbs/default.jpeg"
+                },
+                {
+                    "formKUID": "c160c6c6ee5448999a6db7b0920b7b5d",
+                    "formName": "Form1",
+                    "isStartupForm": true,
+                    "key": "c160c6c6ee5448999a6db7b0920b7b5d",
+                    "loc": "368 404.7544921875",
+                    "thumbnailURL": "/assets/Abdi101/forms/mobile/AppGroup/Form1.sm/.thumbs/default.jpeg"
+                },
+                {
+                    "formKUID": "dc8faa1a9e2d483d8bc36df2b6535ab1",
+                    "formName": "Ideal",
+                    "isStartupForm": false,
+                    "key": "dc8faa1a9e2d483d8bc36df2b6535ab1",
+                    "loc": "362.69340458971124 36.16982069941225",
+                    "thumbnailURL": "/assets/Abdi101/forms/mobile/AppGroup/Ideal.sm/.thumbs/default.jpeg"
+                },
+                {
+                    "formKUID": "ad9fd59d29754645b2392719879ffa05",
+                    "formName": "Profile",
+                    "isStartupForm": false,
+                    "key": "ad9fd59d29754645b2392719879ffa05",
+                    "loc": "564.532977051444 36.16982069941228",
+                    "thumbnailURL": "/assets/Abdi101/forms/mobile/AppGroup/Profile.sm/.thumbs/default.jpeg"
+                },
+                {
+                    "formKUID": "bdcb7a99872f420fbaa49a7cd4fbed98",
+                    "formName": "Register",
+                    "isStartupForm": false,
+                    "key": "bdcb7a99872f420fbaa49a7cd4fbed98",
+                    "loc": "-833.0953725307821 518.9773026190835",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "b0ee3a9b7f8145e297966eba6c1cda23",
+                    "formName": "RegsitrationSuccess",
+                    "isStartupForm": false,
+                    "key": "b0ee3a9b7f8145e297966eba6c1cda23",
+                    "loc": "-53.02584721832159 479.53255567927727",
+                    "thumbnailURL": "/assets/Abdi101/forms/mobile/AppGroup/RegsitrationSuccess.sm/.thumbs/default.jpeg"
+                },
+                {
+                    "formKUID": "ec30c0428a4c4d949d7367ad0afce934",
+                    "formName": "Signin",
+                    "isStartupForm": false,
+                    "key": "ec30c0428a4c4d949d7367ad0afce934",
+                    "loc": "-288.31271388783443 9.256652330869315",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}

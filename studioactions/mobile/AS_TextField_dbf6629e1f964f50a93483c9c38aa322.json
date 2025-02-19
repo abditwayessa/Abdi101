@@ -1,0 +1,31 @@
+{
+    "AS_TextField_dbf6629e1f964f50a93483c9c38aa322": {
+        "id": "AS_TextField_dbf6629e1f964f50a93483c9c38aa322",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "Signin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ec30c0428a4c4d949d7367ad0afce934"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__gb7c2c1790d94c7aa08495a5b9266e29",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "Validation",
+            "display": "Validation",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

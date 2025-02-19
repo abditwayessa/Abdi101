@@ -1,0 +1,11 @@
+{
+  "subType" : "customapp",
+  "description" : "AbdiNew",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "DataModels",
+    "version" : "1.0",
+    "etag" : "a09ed623-1f55-4293-af79-dc6f5a2e1edc"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

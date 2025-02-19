@@ -1,0 +1,28 @@
+{
+    "AS_Form_j5c98a00c1964f749228db4cea491e71": {
+        "id": "AS_Form_j5c98a00c1964f749228db4cea491e71",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "BMI",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d82411e98de64ea2b655a607e709c915"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__f1341e4792d345158e3212e68689ccc3",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "KillSession",
+            "display": "KillSession",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

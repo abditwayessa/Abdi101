@@ -1,0 +1,28 @@
+{
+    "AS_Button_bd39e7b7a17d447aa075405deb8dad12": {
+        "id": "AS_Button_bd39e7b7a17d447aa075405deb8dad12",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Profile",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ad9fd59d29754645b2392719879ffa05"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__bb197ffd98ef41949c3334a82e17902d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "NavigateToProfile",
+            "display": "NavigateToProfile",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

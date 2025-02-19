@@ -1,0 +1,28 @@
+{
+    "AS_Button_c1a8c16e36dd42fdb68a652d2e1e6a62": {
+        "id": "AS_Button_c1a8c16e36dd42fdb68a652d2e1e6a62",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "BMI",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d82411e98de64ea2b655a607e709c915"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__e73fd8cca0da402687488eea3adf0a9c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "Logout",
+            "display": "Logout",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

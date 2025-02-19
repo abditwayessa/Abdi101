@@ -1,0 +1,24 @@
+{
+    "AS_Button_j464d700d4b940dc9ec48461559716a2": {
+        "id": "AS_Button_j464d700d4b940dc9ec48461559716a2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_h07453a739304d2a8bb1458c955c2e75",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Register",
+            "friendlyName": "Register",
+            "formKUID": "bdcb7a99872f420fbaa49a7cd4fbed98",
+            "projectName": "Abdi101",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "AppGroup",
+            "isCustomInput": false
+        }]
+    }
+}

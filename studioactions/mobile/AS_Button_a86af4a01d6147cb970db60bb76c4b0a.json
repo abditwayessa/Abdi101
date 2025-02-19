@@ -1,0 +1,28 @@
+{
+    "AS_Button_a86af4a01d6147cb970db60bb76c4b0a": {
+        "id": "AS_Button_a86af4a01d6147cb970db60bb76c4b0a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "BMI",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d82411e98de64ea2b655a607e709c915"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__f18388fb6af547318ebe57b309ce59d1",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onCalculate",
+            "display": "onCalculate",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

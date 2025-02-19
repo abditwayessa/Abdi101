@@ -1,0 +1,28 @@
+{
+    "AS_Form_e3694539e6314aa69907a6b6baba68ef": {
+        "id": "AS_Form_e3694539e6314aa69907a6b6baba68ef",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Profile",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ad9fd59d29754645b2392719879ffa05"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__eb40e8f583cc4086b3fb07ddbf2cc5ae",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "BMIData",
+            "display": "BMIData",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

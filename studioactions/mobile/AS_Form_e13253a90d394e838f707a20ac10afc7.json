@@ -1,0 +1,28 @@
+{
+    "AS_Form_e13253a90d394e838f707a20ac10afc7": {
+        "id": "AS_Form_e13253a90d394e838f707a20ac10afc7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Signin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ec30c0428a4c4d949d7367ad0afce934"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__e87edf8aeb14459b8c47c7697714cb13",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "KillSession",
+            "display": "KillSession",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

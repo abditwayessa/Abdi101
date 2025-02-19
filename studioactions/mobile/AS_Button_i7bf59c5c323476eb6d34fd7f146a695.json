@@ -1,0 +1,28 @@
+{
+    "AS_Button_i7bf59c5c323476eb6d34fd7f146a695": {
+        "id": "AS_Button_i7bf59c5c323476eb6d34fd7f146a695",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Register",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bdcb7a99872f420fbaa49a7cd4fbed98"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__j86d46aaade84ac4ae796c61bea066e7",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "SendData",
+            "display": "SendData",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

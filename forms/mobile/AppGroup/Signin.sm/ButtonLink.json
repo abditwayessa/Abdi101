@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_skin_": "s130da4636fa49fa8afdfa34343e0774",
+    "_text_": "Register",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sa628b25f9ea479f8752e2ef010addb8",
+    "id": "ButtonLink",
+    "ide_onClick": "AS_Button_j464d700d4b940dc9ec48461559716a2",
+    "info": null,
+    "isvisible": true,
+    "kuid": "bda8c779e44f42c3a4c791eb6ed913a8",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "parent": "existingUser",
+    "pf": "Signin",
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Button_b7d5190d79bc4bddbab05b31327c15f5": {
+        "id": "AS_Button_b7d5190d79bc4bddbab05b31327c15f5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Ideal",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dc8faa1a9e2d483d8bc36df2b6535ab1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__e4ddd8644f614b0b8070eece36f01547",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "NavigateToBMI",
+            "display": "NavigateToBMI",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

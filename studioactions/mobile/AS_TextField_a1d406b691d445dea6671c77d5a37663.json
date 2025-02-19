@@ -1,0 +1,24 @@
+{
+    "AS_TextField_a1d406b691d445dea6671c77d5a37663": {
+        "id": "AS_TextField_a1d406b691d445dea6671c77d5a37663",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onTextChange_aa7fe57fa1b248a68ccb22c9acc2bc2d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "Validation",
+            "display": "Validation",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

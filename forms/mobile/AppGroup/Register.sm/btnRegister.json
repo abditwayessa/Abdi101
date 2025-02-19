@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "65dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1c25cc8ac4c45c3a5c7e4c79c1a80bc",
+    "_text_": "Register",
+    "_top_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "android": {
+        "enableHapticFeedback": false
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "enablehapticfeedback": false,
+    "focusskin": "s48888dbe2d9489bbe38342870f514aa",
+    "id": "btnRegister",
+    "ide_onClick": "AS_Button_i7bf59c5c323476eb6d34fd7f146a695",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a53891de3fe4487193e5133642cf913e",
+    "name": "kony.ui.Button",
+    "parent": "FlexScrollContainer0f09ecf486b524d",
+    "pf": "Register",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

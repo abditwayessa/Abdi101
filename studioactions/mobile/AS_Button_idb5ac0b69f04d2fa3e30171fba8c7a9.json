@@ -1,0 +1,29 @@
+{
+    "AS_Button_idb5ac0b69f04d2fa3e30171fba8c7a9": {
+        "id": "AS_Button_idb5ac0b69f04d2fa3e30171fba8c7a9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "RegsitrationSuccess",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b0ee3a9b7f8145e297966eba6c1cda23"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__f7c60f4e59c84967a346a0f02121349f",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Signin",
+            "formKUID": "ec30c0428a4c4d949d7367ad0afce934",
+            "projectName": "Abdi101",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "AppGroup",
+            "isCustomInput": false
+        }]
+    }
+}

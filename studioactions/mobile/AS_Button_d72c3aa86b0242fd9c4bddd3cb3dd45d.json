@@ -1,0 +1,21 @@
+{
+    "AS_Button_d72c3aa86b0242fd9c4bddd3cb3dd45d": {
+        "id": "AS_Button_d72c3aa86b0242fd9c4bddd3cb3dd45d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_jb126fd149064d88b869242feeaf8f4a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ToLogin",
+            "display": "ToLogin",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

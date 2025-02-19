@@ -1,0 +1,24 @@
+{
+    "AS_TextField_jb531b366b9d4ee2bb55a57ad0b3b655": {
+        "id": "AS_TextField_jb531b366b9d4ee2bb55a57ad0b3b655",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onTextChange_d9cbd2f5c51544688f29de9527cb31eb",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "PasswordValidator",
+            "display": "PasswordValidator",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

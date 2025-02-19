@@ -1,0 +1,24 @@
+{
+    "AS_TextField_jbf8933e62ea4598aaccdd198ebc759f": {
+        "id": "AS_TextField_jbf8933e62ea4598aaccdd198ebc759f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onTextChange_bcabf85695894a2aa5fc7f3c87c01453",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "EmailValidator",
+            "display": "EmailValidator",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

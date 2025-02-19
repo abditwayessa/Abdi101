@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "1"
+    },
+    "_skin_": "seae682411914faf891968dc0cf772ba",
+    "_text_": "Logout",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sb0048fa6ff745d1891cc8f72c2626db",
+    "id": "Button0d8fb0b03d2f74b",
+    "ide_onClick": "AS_Button_ab92c09681fd46eea53314afb4b51111",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a62f5757248547f1a589b11cffa87da2",
+    "name": "kony.ui.Button",
+    "parent": "headerContainer01c",
+    "pf": "Ideal",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

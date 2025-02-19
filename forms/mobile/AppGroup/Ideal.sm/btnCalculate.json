@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "166dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2a23286a540470181ab279f411d420a",
+    "_text_": "Calculate",
+    "_top_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sed3285634224fd6b2a42c6697a9043f",
+    "id": "btnCalculate",
+    "ide_onClick": "AS_Button_f0643ec76f0340599e0bc67a7a767c3e",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "de3aeb1c532949729f4ae23022075180",
+    "name": "kony.ui.Button",
+    "parent": "FlexScrollContainer0e4b0bd2f0ae94c",
+    "pf": "Ideal",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

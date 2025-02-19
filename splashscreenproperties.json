@@ -1,0 +1,68 @@
+{
+    "splashScreen": {
+        "desktop": {
+            "desktopweb": {},
+            "kiosk": {}
+        },
+        "mobile": {
+            "android": {
+                "showKonySplashScreen": false,
+                "splashVideo": "doctor.mp4",
+                "animationDuration": 2
+            },
+            "iphone": {
+                "splashConfig": {
+                    "_skin_": "sef1905facab478cb698ed0f7928e67a",
+                    "children": [
+                        {
+                            "isvisible": true,
+                            "kuid": "d509874d81524dde99353211551bd01c",
+                            "id": "Image0g6d7051ee9eb43",
+                            "_left_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "wType": "Image",
+                            "_src_": "doctor_pana.png",
+                            "contentmode": 1,
+                            "UIElementType": "Image"
+                        }
+                    ]
+                }
+            },
+            "spa": {},
+            "spaan": {},
+            "spaip": {},
+            "spawinphone8": {},
+            "winphone10": {},
+            "winphone8": {}
+        },
+        "tablet": {
+            "android": {},
+            "ipad": {
+                "landscape": {},
+                "splashConfig": {
+                    "_skin_": "sef1905facab478cb698ed0f7928e67a",
+                    "children": []
+                }
+            },
+            "spa": {},
+            "spaandroidtablet": {},
+            "spaipad": {},
+            "spawindowstablet": {},
+            "windows8": {}
+        }
+    }
+}

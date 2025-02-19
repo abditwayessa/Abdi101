@@ -1,0 +1,28 @@
+{
+    "AS_Form_g705fdcfef474bc88be870d9aa153f86": {
+        "id": "AS_Form_g705fdcfef474bc88be870d9aa153f86",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Register",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bdcb7a99872f420fbaa49a7cd4fbed98"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__eb86d27b261d42ffbea2ff5dd41964d2",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "Ondestroy",
+            "display": "Ondestroy",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

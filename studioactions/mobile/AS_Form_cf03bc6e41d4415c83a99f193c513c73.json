@@ -1,0 +1,28 @@
+{
+    "AS_Form_cf03bc6e41d4415c83a99f193c513c73": {
+        "id": "AS_Form_cf03bc6e41d4415c83a99f193c513c73",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Signin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ec30c0428a4c4d949d7367ad0afce934"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b5e55a083bc542c0b7c4d1ab468f8968",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "Init",
+            "display": "Init",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

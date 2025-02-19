@@ -1,0 +1,100 @@
+{
+    "AS_Button_h0258ddb1c3049d3a4fc7eac59e02684": {
+        "id": "AS_Button_h0258ddb1c3049d3a4fc7eac59e02684",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Signin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ec30c0428a4c4d949d7367ad0afce934"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_SERVICE_ja8709c0016a47ddb7255f915161371d",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {
+                "ME_Mapping_bf4302c7695e41088d4256c9edbaccfe": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_bf4302c7695e41088d4256c9edbaccfe",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "txtUsername",
+                        "widgetPath": "this.view.txtUsername",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "Signin",
+                        "widgetKUID": "d2b531789c204b1e977b9f9d76064b90",
+                        "itemKUID": "ec30c0428a4c4d949d7367ad0afce934",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "username",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "DataModels",
+                            "serviceid": "1a7a986d-3739-4abb-a654-5a8bdcee424d",
+                            "type": "integration",
+                            "operationname": "abdiapp_SignIn",
+                            "operationid": "50"
+                        }
+                    }
+                },
+                "ME_Mapping_j9808f9e054b42ae9f4054e86c9e09ab": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_j9808f9e054b42ae9f4054e86c9e09ab",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "txtPassword",
+                        "widgetPath": "this.view.txtPassword",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "Signin",
+                        "widgetKUID": "ec33fbd48c56490e813b47b9144f8ef7",
+                        "itemKUID": "ec30c0428a4c4d949d7367ad0afce934",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "password",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "DataModels",
+                            "serviceid": "1a7a986d-3739-4abb-a654-5a8bdcee424d",
+                            "type": "integration",
+                            "operationname": "abdiapp_SignIn",
+                            "operationid": "50"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_bf4302c7695e41088d4256c9edbaccfe", "ME_Mapping_j9808f9e054b42ae9f4054e86c9e09ab"],
+            "serviceconfig": {
+                "servicename": "DataModels",
+                "serviceid": "1a7a986d-3739-4abb-a654-5a8bdcee424d",
+                "type": "integration",
+                "operationname": "abdiapp_SignIn",
+                "operationid": "50"
+            },
+            "enableMappingEditor": true
+        }]
+    }
+}

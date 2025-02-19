@@ -1,0 +1,28 @@
+{
+    "AS_Button_h5e3f379e72c4c4e89745aa578970a2d": {
+        "id": "AS_Button_h5e3f379e72c4c4e89745aa578970a2d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Ideal",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dc8faa1a9e2d483d8bc36df2b6535ab1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__haa565f5c2c94f0585263e9bbf7911a4",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "NavigateToProfile",
+            "display": "NavigateToProfile",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

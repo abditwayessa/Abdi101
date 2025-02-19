@@ -1,0 +1,30 @@
+{
+    "AS_Button_d010006129e24a6197dd721b6f78186e": {
+        "id": "AS_Button_d010006129e24a6197dd721b6f78186e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Signin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ec30c0428a4c4d949d7367ad0afce934"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__b3346672b7294708bca6280c7b4efead",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Register",
+            "friendlyName": "Register",
+            "formKUID": "bdcb7a99872f420fbaa49a7cd4fbed98",
+            "projectName": "Abdi101",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "AppGroup",
+            "isCustomInput": false
+        }]
+    }
+}
