@@ -61,18 +61,7 @@ define({
         self.view.txtPassword.text = "";
         self.view.txtUsername.text = "";
          self.view.txtError.text = "Invalid credential!";
-//         function SHOW_ALERT_c14d184a8ec248c5a0dda1b159ee647a_True() {}
-//         function SHOW_ALERT_c14d184a8ec248c5a0dda1b159ee647a_Callback() {
-//           SHOW_ALERT_c14d184a8ec248c5a0dda1b159ee647a_True();
-//         }
-//         kony.ui.Alert({
-//           "alertType": constants.ALERT_TYPE_ERROR,
-//           "alertTitle": "Invalid Credential",
-//           "message": "Your username or password is invalid!",
-//           "alertHandler": SHOW_ALERT_c14d184a8ec248c5a0dda1b159ee647a_Callback
-//         }, {
-//           "iconPosition": constants.ALERT_ICON_POSITION_LEFT
-//         });
+        
       }
        kony.application.dismissLoadingScreen();
     }
